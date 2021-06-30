@@ -1,4 +1,4 @@
-const model = require('./model');
+const model = require('../models/model');
 
 exports.listarTodosServicos = () => {
   const lista = model.listarTodosServicos();
